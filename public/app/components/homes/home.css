@@ -1,0 +1,17 @@
+.big{
+    top: 100px;
+}
+
+.title{
+    font-family: "Inter";
+    margin-top: 100px;
+}
+
+img{
+    width: 20%;
+}
+
+
+@media all and (max-width:430px){
+
+}
