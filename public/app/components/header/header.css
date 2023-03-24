@@ -72,13 +72,11 @@ button{
     .bar{
         display: flex;
         position: fixed;
-        height: 10%;
         width: 100%;
         top: 0;
         left: 0;
         margin-top: 1%;
         justify-content: space-between;
-        background-color: white;
     }
     
     .image{
