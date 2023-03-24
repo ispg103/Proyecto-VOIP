@@ -23,9 +23,7 @@ class Header extends HTMLElement {
                 <link rel="stylesheet" href="./app/components/header/header.css">
                 <section class="bar">
                 <img src="./app/images/voip.png" class="image">
-                <button>
-                <img src="./app/images/search.png" class="searchImg">
-                </button>
+                <input placeholder="Search"></input>
                 
                 <section class="icons">
                 <a href="" class="logout">Log out</a>

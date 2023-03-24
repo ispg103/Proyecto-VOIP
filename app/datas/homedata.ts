@@ -77,6 +77,8 @@ const homedata: DataShape[] = [
         image: "https://source.unsplash.com/category/technology/517x693",
 
     },
+
+    
 ]
 
 export default homedata;

@@ -15,18 +15,18 @@
     padding: 1%;
 }
 
-button{
-    width: 20%;
+input{
+    width: 40%;
     height: 45%;
     margin-top: 1%;
-    border-radius: 10px;
-    border: none;
+    border-radius: 15px;
     margin-left: 5%;
 }
 
-.searchImg{
-    width: 6%;
-    float: left;
+::placeholder{
+    font-family: 'Inter';
+    font-size: small;
+    padding: 5px;
 }
 
 .logout{
@@ -84,18 +84,18 @@ button{
         padding: 1%;
     }
     
-    button{
+    input{
         width: 25%;
-        height: 26%;
+        height: 21%;
         margin-top: 1%;
         border-radius: 10px;
-        border: none;
         margin-left: 1%;
     }
-    
-    .searchImg{
-        width: 12%;
-        float: left;
+
+    ::placeholder{
+        font-family: 'Inter';
+        font-size:x-small;
+        padding: 5px;
     }
     
     .logout{
