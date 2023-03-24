@@ -30,9 +30,9 @@ class Home extends HTMLElement {
     render() {
         if (this.shadowRoot) {
             this.shadowRoot.innerHTML = `
-                <link rel="stylesheet" href="./app/components/home/home.css">
+                <link rel="stylesheet" href="./app/components/homes/home.css">
             
-                <section class="all">
+                <section class="big">
                 <h2>${this.title}</h2>
                 <img src="${this.image}">
                 </section>

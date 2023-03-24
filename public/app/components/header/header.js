@@ -19,11 +19,11 @@ class Header extends HTMLElement {
                 <section class="bar">
                 <img src="./app/images/voip.png" class="image">
                 <button>
-                <img src="https://cdn-icons-png.flaticon.com/512/54/54481.png" class="searchImg">
+                <img src="./app/images/search.png" class="searchImg">
                 </button>
-
+                
                 <section class="icons">
-                <b><div class="logout">Log out</div></b>
+                <a href="" class="logout">Log out</a>
                 <img src="./app/images/plus.png" class="plus">
                 <img src="./app/images/like.png" class="like">
                 <img src="./app/images/message.png" class="message">

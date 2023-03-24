@@ -26,10 +26,9 @@ class Header extends HTMLElement {
                 <button>
                 <img src="./app/images/search.png" class="searchImg">
                 </button>
-
-                <a href="" class="logout">Log out</a>
                 
                 <section class="icons">
+                <a href="" class="logout">Log out</a>
                 <img src="./app/images/plus.png" class="plus">
                 <img src="./app/images/like.png" class="like">
                 <img src="./app/images/message.png" class="message">
