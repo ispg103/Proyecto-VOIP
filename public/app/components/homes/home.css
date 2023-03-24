@@ -1,17 +1,51 @@
-.big{
-    top: 100px;
+.prueba{
+    width: 100%;
+    margin-top: 6%;
 }
 
-.big h2{
-    font-family: "Inter";
-    margin-top: 100px;
+.prueba h1{
+    font-family: 'Inter';
+    font-size: xx-large;
+    margin-left: 1%;
+    margin-bottom: 6%; 
 }
 
 img{
-    width: 20%;
+    width: 275px;
 }
 
+.lista{
+    float:left;
+    display:inline;
+    margin:10px;
+}
 
+div .foto{
+    margin:0px;
+    border-radius: 10px;
+}
 @media all and (max-width:430px){
 
+.prueba{
+       width: 102%;
+       margin-top: 10%;
+   }
+
+.prueba h1{
+        font-family: 'Inter';
+        font-size: xx-large;
+        margin-left: 1%;
+        margin-bottom: 10%;
+    }
+.lista{
+    width:47%;
+    float:left;
+    display:inline;
+    margin:5px;
+    border-radius: 10px;
+}
+div .foto{
+    border-radius: 10px;
+    width: 100%;
+}
 }
