@@ -1,19 +1,16 @@
 export enum Attribute1 {
     "title" = "title",
     "image" = "image",
-    "text" = "text"
 }
 
 class Home extends HTMLElement {
     titles?: string;
     image?: string;
-    text?:string;
 
     static get observedAttributes() {
         const attrs: Record<Attribute1, null> = {
             title: null,
             image: null,
-            text:null
         };
         return Object.keys(attrs);
     }

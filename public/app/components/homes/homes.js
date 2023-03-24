@@ -2,14 +2,12 @@ export var Attribute1;
 (function (Attribute1) {
     Attribute1["title"] = "title";
     Attribute1["image"] = "image";
-    Attribute1["text"] = "text";
 })(Attribute1 || (Attribute1 = {}));
 class Home extends HTMLElement {
     static get observedAttributes() {
         const attrs = {
             title: null,
             image: null,
-            text: null
         };
         return Object.keys(attrs);
     }

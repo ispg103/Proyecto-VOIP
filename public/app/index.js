@@ -1,4 +1,3 @@
-import * as components from './components/index.js'
 import homedata from './datas/homedata.js';
 import { Attribute1 } from "./components/homes/homes.js";
 class AppContainer extends HTMLElement {
